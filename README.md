@@ -1,10 +1,9 @@
-# FutbolJersey-Store-WEB
+# CamisFut-WEB
 # Proyecto-HTML5
 
 ## Proyecto para Lenguaje de marcas sobre HTML y CSS.
  * _Temática:_ Tienda de Camisetas de Fútbol
- * _Plantilla:_ [html5up.net](https://html5up.net/escape-velocity)
- * _Web:_ [FutbolJersey Store](https://madand1.github.io/FutbolJersey-Store-WEB/)
+ * _Web:_ [FutbolJersey Store](https://github.com/Alejandromr1599/Pagina-web/tree/main)
 
 ## Autor :computer:
 * Alejandro Medina Ramirez
