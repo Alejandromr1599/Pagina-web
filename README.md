@@ -3,7 +3,7 @@
 
 ## Proyecto para Lenguaje de marcas sobre HTML y CSS.
  * _Temática:_ Tienda de Camisetas de Fútbol
- * _Web:_ [FutbolJersey Store](https://github.com/Alejandromr1599/Pagina-web/tree/main)
+ * _Web:_ [CamisFut](https://github.com/Alejandromr1599/Pagina-web/)
 
 ## Autor :computer:
 * Alejandro Medina Ramirez
