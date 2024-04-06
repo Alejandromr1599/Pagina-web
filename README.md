@@ -29,5 +29,5 @@
 ## Inspiración :soccer: :trophy:
 La pasión por el fútbol va más allá del campo de juego, y las camisetas son una forma de expresar nuestro apoyo y amor por nuestros equipos y selecciones favoritas. Camisfut se dedica a ofrecer una amplia gama de camisetas y accesorios para que los aficionados puedan encontrar y adquirir los productos que representan su pasión futbolística.
 
-Espero que disfrutes navegando por FutbolJersey Store y encuentres la camiseta perfecta para ti. ¡Vamos juntos a vivir la emoción del fútbol!
+Espero que disfrutes navegando por CamisFut y encuentres la camiseta perfecta para ti. ¡Vamos juntos a vivir la emoción del fútbol!
 
