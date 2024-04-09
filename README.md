@@ -3,7 +3,7 @@
 
 ## Proyecto para Lenguaje de marcas sobre HTML y CSS.
  * _Temática:_ Tienda de Camisetas de Fútbol
- *  _Plantilla:_ [FutbolEmotion](https://www.futbolemotion.com/)
+ *  _Plantilla:_ No tiene plantilla
  * _Web:_ [CamisFut](https://github.com/Alejandromr1599/Pagina-web/)
 
 ## Autor :computer:
