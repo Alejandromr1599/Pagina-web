@@ -1,0 +1,134 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el logo */
+.logo img {
+    max-height: 70px; /* Establece la altura máxima de la imagen del logo */
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #ffffff; /* Fondo blanco */
+    color: rgb(3, 3, 3); /* Color de texto */
+    padding: 1rem; /* Espaciado interno de 1rem */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para la navegación principal */
+.main-nav {
+    background-color: #333; /* Fondo gris oscuro */
+    overflow: hidden;
+}
+
+/* Estilos para los enlaces de la navegación principal */
+.main-nav a {
+    float: left; /* Flotar a la izquierda */
+    display: block;
+    color: white; /* Texto blanco */
+    text-align: center; /* Alineación centrada */
+    padding: 14px 16px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para el contenedor del producto */
+.product-container {
+    position: relative; /* Posición relativa para posicionar la guía de tallas */
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para la imagen del producto */
+.product-image {
+    width: 300px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-right: 50px; /* Margen derecho */
+}
+
+/* Estilos para la información del producto */
+.product-info {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    flex-direction: column; /* Dirección de la columna */
+    position: relative; /* Posición relativa para posicionar el botón de añadir al carrito */
+}
+
+/* Estilos para el título del producto */
+.product-info h2 {
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para el texto descriptivo del producto */
+.product-info p {
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 30px; /* Margen inferior */
+}
+
+/* Estilos para el contenedor de precio y cantidad */
+.price-quantity-container {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el contenedor de precio */
+.price-container {
+    margin-right: 20px; /* Margen derecho */
+}
+
+/* Estilos para el precio */
+.price {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el contenedor de cantidad */
+.quantity-container {
+    display: flex; /* Utiliza flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para la etiqueta de cantidad */
+.quantity-container label {
+    margin-right: 10px; /* Margen derecho */
+}
+
+/* Estilos para el campo de entrada de cantidad */
+.quantity-container input[type="number"] {
+    width: 50px; /* Ancho del campo de entrada */
+}
+
+/* Estilos para el contenedor de tallas */
+.size-container {
+    align-self: flex-end; /* Alinea el contenedor de tallas al final del contenedor del producto */
+    margin-top: 0px; /* Margen superior */
+}
+
+/* Estilos para la etiqueta de tallas */
+.size-container label {
+    margin-right: 10px; /* Margen derecho */
+}
+
+/* Estilos para el botón de añadir al carrito */
+.add-to-cart-button {
+    font-size: 16px
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Betis - Primera Equipación 2023/2024</title>
+    <link rel="stylesheet" href="prueba2.css">
+    <link rel="icon" href="logo.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la tienda">
+        </div>
+    </header>
+    
+    <div class="product">
+        <div class="product-image">
+            <img src="camiseta1.png" alt="Real Betis - Primera Equipación 2023/2024">
+        </div>
+        <div class="product-info">
+            <h2>Real Betis - Primera Equipación 2023/2024</h2>
+            <p class="price">40,99 €</p>
+            <p class="description">Camiseta oficial del Real Betis para la temporada 2023/2024.</p>
+            <div class="size-container">
+                <label for="size">Talla:</label>
+                <select id="size" name="size">
+                    <option value="">Escoge tu talla</option>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                </select>
+                <br>
+                <br>
+                <div class="quantity-container">
+                <label for="quantity">Cantidad:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <br>
+                <br>
+                <div class="notes-container">
+                    <label for="notes">Observaciones:</label>
+                    <textarea id="notes" name="notes" rows="4" cols="50"></textarea>
+                </div>
+            <button>Añadir al carrito</button>
+            
+        </div>
+    </div>
+    <div class="size-guide">                                                                                                                                                                                                                                      4
+        </div>
+        <table>
+            <thead>
+              <tr>
+                <th>TALLA</th>
+                <th>PECHO (cm)</th>
+                <th>CINTURA (cm)</th>
+                <th>CADERA (cm)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>XS</td>
+                <td>82-87</td>
+                <td>71-75</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>S</td>
+                <td>88-94</td>
+                <td>76-82</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>M</td>
+                <td>95-102</td>
+                <td>83-90</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>L</td>
+                <td>103-111</td>
+                <td>91-99</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>XL</td>
+                <td>112-121</td>
+                <td>100-109</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>2XL</td>
+                <td>122-132</td>
+                <td>110-121</td>
+                <td>120-128</td>
+              </tr>
+              <tr>
+                <td>3XL</td>
+                <td>133-144</td>
+                <td>122-134</td>
+                <td>129-138</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+    <script>
+        const decreaseButton = document.getElementById('decrease');
+        const increaseButton = document.getElementById('increase');
+        const quantityInput = document.getElementById('quantity');
+    
+        decreaseButton.addEventListener('click', () => {
+            const currentValue = parseInt(quantityInput.value);
+            if (currentValue > 1) {
+                quantityInput.value = currentValue - 1;
+            }
+        });
+    <footer>
+        <p>&copy; CamisFut</p>
+    </footer>
+
+    
